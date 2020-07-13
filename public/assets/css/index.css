@@ -1,0 +1,419 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: Montserrat, sans-serif;
+}
+.navbar-brand-image-logo {
+  border-radius: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header nav #div1 {
+  flex: 4;
+  border: 0px solid lime;
+  padding: 0 !important;
+}
+
+header nav #div1 a {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  color: #008cba;
+  padding: 0 !important;
+  margin: 0;
+}
+header nav #div1 a img {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  margin-right: 10px;
+  border-radius: 50%;
+  /* border:0px solid black; */
+}
+
+header nav #div1 img {
+  /* border:0px solid green; */
+  max-width: 50%;
+}
+
+header nav #div2 {
+  flex: 8;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* border: 0px solid blue; */
+}
+header nav #div2 a {
+  /* flex: 1; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  color: #008cba;
+  cursor: pointer;
+  margin-left: 40px;
+  /* border: 0px solid blue; */
+}
+
+nav div a {
+  margin-left: 10px;
+}
+
+#secao-corousel {
+  display: flex;
+  justify-content: center;
+}
+
+#secao-corousel img {
+  max-width: 100%;
+}
+
+#todos-os-veiculos {
+  box-sizing: border-box;
+  color: rgb(97, 97, 97);
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 200;
+  height: 46px;
+}
+
+#secao-todos-veiculos {
+  border: 0px solid lime;
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+
+#secao-carros {
+  border: 0px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#secao-carros div {
+  border: 0px solid red;
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#secao-carros div img {
+  max-width: 100%;
+  min-height: 120px;
+  margin: 10px;
+  border: 0px solid red;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: Ford Antenna Regular, Arial, Helvetica, 'Microsoft YaHei';
+}
+
+#conteudo {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border: 0px dashed red;
+}
+
+#secao-banner {
+  background: url('https://www.ford.com.br/content/ford/br/pt_br/home/_jcr_content/par/billboard/imageComponent/image.imgs.full.high.jpg');
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#secao-banner  div{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#secao-banner  div button{
+  display: inline !important;
+}
+#secao-banner * {
+  color:#fff;
+  font-size:1.2rem;
+}
+
+#ofertas-text {
+  display: inline;
+  color:#fff;
+  cursor: auto;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 52.8px;
+}
+
+#section-five {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+}
+
+#section-five div {
+  display: flex;
+  min-height: 300px;
+  border: 0px solid red;
+  width: 100%;
+}
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.box1 {
+  background: #001f3f;
+}
+.box2 {
+  background: #0074d9;
+}
+.box3 {
+  background: #ff851b;
+}
+.box4 {
+  background: #3d9970;
+}
+.box5 {
+  background: #85144b;
+}
+.box6 {
+  background: #aaaaaa;
+}
+
+#section-six {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  color: rgb(141, 126, 129);
+  cursor: auto;
+  font-family: Antenna, Arial, Helvetica, 'Microsoft YaHei', 微软雅黑, STXihei,
+    华文细黑, SimSun, 宋体;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+}
+#section-seven {
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#section-seven div {
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+}
+#section-seven #painel-direto {
+  display: flex;
+}
+#section-seven #painel-esquerdo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#section-seven #painel-direto div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+}
+.box-1 {
+  background-color: #0074d9;
+}
+.box-2 {
+  background-color: #3d9970;
+}
+.box-3 {
+  background-color: #b10dc9;
+}
+.box-4 {
+  background-color: #ffdc00;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footer-search {
+  overflow: visible;
+  background: #343434;
+}
+
+.footer-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #252525;
+  padding-top: 30px;
+}
+
+.footer-body .desktop {
+  color: #fff;
+}
+
+.footer-body .desktop ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-body .desktop ul li {
+  margin-top: 10px;
+}
+
+.footer-body .desktop ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.f-footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #1b394e;
+  color: #fff;
+}
+
+/*DESKTOP*/
+@media (min-width: 749.999px) {
+  .f-footer {
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+  }
+  #secao-corousel {
+    min-height: 200px;
+  }
+  #secao-banner  div{
+    max-width: 30%;
+    padding:20px;
+  }
+  .copyright * {
+    font-size: 0.8rem;
+  }
+  #section-seven div {
+    width: 50%;
+  }
+  main {
+    width: 1268px;
+    margin: 0px auto;
+  }
+
+  .footer-search {
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff !important;
+  }
+
+  .footer-body .desktop {
+    width: 25%;
+  }
+
+  .footer-body-1 {
+    padding-left: 100px;
+  }
+  .footer-body-2 {
+    padding-left: 50px;
+  }
+  #secao-banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+  }
+  #secao-banner * {
+    color:#fff;
+  }
+}
+.copyright * {
+  color: #868686;
+  font-family: Montserrat, sans-serif;
+  line-height: 10% !important;
+}
+/*CELULAR*/
+@media (max-width: 750px) {
+  main {
+    width: 100%;
+    margin: 0px auto;
+  }
+  #secao-corousel {
+    min-height: 200px;
+  }
+  .f-footer {
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+  }
+  .copyright * {
+    font-size: 0.8rem;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+  #section-seven div {
+    width: 100%;
+  }
+  .footer-body {
+    padding: 20px;
+  }
+  .footer-search {
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer-body .desktop {
+    width: 50% !important;
+    border: 0px solid lime;
+  }
+  #secao-banner {
+    padding-top: 0px;
+    padding-bottom: 100px;
+  }
+  #secao-banner * {
+    color:#fff;
+    text-align: center;
+  }
+}
+
+
+.copyright {
+  margin-top: 0px;
+}
+
+.footer-titulo-text {
+  font-size: calc(1.9rem - 0.5rem);
+  margin-bottom: 20px !important;
+  font-weight: 900;
+}
+
+nav  a {
+  color: #008cba !important;
+  font-weight: 900;
+}
