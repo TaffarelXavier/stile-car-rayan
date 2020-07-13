@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
-const NameComponent = () => {
+const HeadApp = () => {
   return (
     <>
       <Head>
@@ -14,4 +14,4 @@ const NameComponent = () => {
   );
 };
 
-export default NameComponent;
+export default HeadApp;
